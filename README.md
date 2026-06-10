@@ -3,15 +3,16 @@
 **基於 InBody 的動態 AI 生理資產配置平台**
 
 [![Competition](https://img.shields.io/badge/競賽-2026第十屆Healthy×Happy-teal?style=flat)](https://incubation.ntunhs.edu.tw/tab/528/id/1911)
+[![Award](https://img.shields.io/badge/🥉_全國第三名-2026_Healthy×Happy-CD7F32?style=flat)]()
 [![Team](https://img.shields.io/badge/團隊-贏家精算師-orange?style=flat)]()
 [![Live Demo](https://img.shields.io/badge/🌐_線上Demo-Live-success?style=flat)](https://nutrition-demo-nine.vercel.app)
 
 > 「我們不是在做營養 APP，我們是在打造每個人的 AI 健康導航員」  
 > 讓數據有溫度、讓健康有價值、讓人生有複利。
 
-**🌐 線上體驗：[https://nutrition-demo-nine.vercel.app](https://nutrition-demo-nine.vercel.app)**
+> 🥉 **榮獲 2026 第十屆全國大專校院「Healthy × Happy」創新創業競賽 — 全國第三名**
 
-</div>
+**🌐 線上體驗：[https://nutrition-demo-nine.vercel.app](https://nutrition-demo-nine.vercel.app)**
 
 ---
 
@@ -126,6 +127,12 @@ npm run preview    # 在本地預覽 build 結果
 
 ---
 
+## 🏅 競賽成績
+
+> 🥉 **全國第三名** — 2026 第十屆全國大專校院「Healthy × Happy」創新創業競賽  
+> 主辦單位：國立臺北護理健康大學育成中心
+
+---
 
 ## 📄 授權
 
