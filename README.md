@@ -1,7 +1,4 @@
-<div align="center">
-
-# 🏆 贏養複利計畫
-### Win Nutrition Compound Plan
+# 🏆 「贏」養複利計畫
 
 **基於 InBody 的動態 AI 生理資產配置平台**
 
@@ -9,15 +6,18 @@
 [![Team](https://img.shields.io/badge/團隊-贏家精算師-orange?style=flat)]()
 [![Role](https://img.shields.io/badge/角色-首席技術長_CTO-blue?style=flat)]()
 [![School](https://img.shields.io/badge/學校-東吳大學資料科學系-red?style=flat)]()
+[![Live Demo](https://img.shields.io/badge/🌐_線上Demo-Live-success?style=flat)](https://nutrition-demo-nine.vercel.app)
 
 > 「我們不是在做營養 APP，我們是在打造每個人的 AI 健康導航員」  
 > 讓數據有溫度、讓健康有價值、讓人生有複利。
+
+**🌐 線上體驗：[https://nutrition-demo-nine.vercel.app](https://nutrition-demo-nine.vercel.app)**
 
 </div>
 
 ---
 
-## 📌 專案背景
+## 專案背景
 
 多數使用者會定期測量 InBody，獲取精準的肌肉量、體脂肪率與基礎代謝率，但這些數據往往只停留在健身房報表或 App 的「過去紀錄」裡，**無法即時導向當下的飲食決策**。
 
@@ -32,7 +32,7 @@
 
 ---
 
-## 🚀 核心功能
+## 核心功能
 
 ### 1. InBody 數據自動同步助手
 透過深度 API 串接，使用者完成量測後數據即時同步至雲端，自動抓取肌肉量、BMR、體水份比例等關鍵指標，徹底解決手動輸入繁瑣問題。
@@ -51,7 +51,7 @@
 
 ---
 
-## 🛠️ 技術架構
+## 技術架構
 
 ```
 精準生理數據          AI 代謝解析           營養預算導航
@@ -69,7 +69,52 @@ InBody + 穿戴裝置  →  SLM 小語言模型    →  主動告訴你下一餐
 
 ---
 
-## 📊 商業模式
+## 線上體驗 & 本地啟動
+
+### 線上 Demo
+👉 **[https://nutrition-demo-nine.vercel.app](https://nutrition-demo-nine.vercel.app)**
+
+> 建議使用 **Chrome** 開啟以獲得最佳體驗：
+> - 🎙️ **語音輸入**：需允許麥克風權限（Web Speech API）
+> - 📷 **掃描營養標示**：首次使用會下載中文辨識語言包，需網路連線（Tesseract.js OCR）
+> - 🎬 **學堂影片**：YouTube 嵌入播放，需網路連線
+
+### 本地開發
+
+```bash
+# 1. 取得專案
+git clone https://github.com/BoRenCheng/healthy-happy-2026.git
+cd healthy-happy-2026
+
+# 2. 安裝相依套件
+npm install
+
+# 3. 啟動開發伺服器（http://localhost:5173）
+npm run dev
+
+# 其他指令
+npm run build      # 產出 production 版本至 dist/
+npm run preview    # 在本地預覽 build 結果
+```
+
+### Demo 實作技術棧
+
+| 類別 | 使用技術 |
+|------|----------|
+| 前端框架 | React 18 + Vite 5 |
+| 樣式 | Tailwind CSS v4 |
+| 動畫 | Framer Motion |
+| 圖表 | Recharts（趨勢圖、雷達圖、雙欄對比） |
+| 語音辨識 | Web Speech API（瀏覽器原生，免金鑰） |
+| 影像辨識 | Tesseract.js（前端 OCR，繁中＋英文） |
+| 圖示 / 字型 | lucide-react · Noto Sans TC |
+| 部署 | Vercel |
+
+> 📌 本 Demo 採前端純客戶端實作，所有辨識與運算皆在瀏覽器完成、**不需任何 API Key**，可直接部署與公開展示。
+
+---
+
+## 商業模式
 
 採「**C 端驗證需求，B 端放大規模**」雙軌策略：
 
@@ -83,27 +128,6 @@ InBody + 穿戴裝置  →  SLM 小語言模型    →  主動告訴你下一餐
 
 ---
 
-## 👥 團隊陣容
-
-| 姓名 | 科系 | 職稱 | 核心職責 |
-|------|------|------|----------|
-| 馮芷蓁 | 經營管理所 | 產品負責人 | 功能規劃、B端商務開發、社群行銷 |
-| 范振恩 | 財務金融學系 | 財務長 | 生理資產評級模型、法規合規、健康增值路徑 |
-| 鄭博仁 | 資料科學系 | **首席技術長 (CTO)** | SLM 調優、穿戴裝置數據對接、B2B API 架構 |
-
----
-
-## 🏅 競賽資訊
-
-| 項目 | 詳情 |
-|------|------|
-| **競賽名稱** | 2026 第十屆全國大專校院「Healthy × Happy」創新創業競賽 |
-| **主辦單位** | 國立臺北護理健康大學育成中心 |
-| **協辦單位** | 東吳大學東吳實踐家創創基地 等 |
-| **決賽日期** | 2026 年 6 月 12 日 |
-| **競賽主題** | 健康產業、智慧生活 |
-
----
 
 ## 📄 授權
 
