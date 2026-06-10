@@ -4,8 +4,6 @@
 
 [![Competition](https://img.shields.io/badge/競賽-2026第十屆Healthy×Happy-teal?style=flat)](https://incubation.ntunhs.edu.tw/tab/528/id/1911)
 [![Team](https://img.shields.io/badge/團隊-贏家精算師-orange?style=flat)]()
-[![Role](https://img.shields.io/badge/角色-首席技術長_CTO-blue?style=flat)]()
-[![School](https://img.shields.io/badge/學校-東吳大學資料科學系-red?style=flat)]()
 [![Live Demo](https://img.shields.io/badge/🌐_線上Demo-Live-success?style=flat)](https://nutrition-demo-nine.vercel.app)
 
 > 「我們不是在做營養 APP，我們是在打造每個人的 AI 健康導航員」  
